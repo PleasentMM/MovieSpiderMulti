@@ -1,0 +1,102 @@
+String string = "<div id=\"billboard\" class=\"s\" data-dstat-areaid=\"75\" data-dstat-mode=\"click,expose\">\n" +
+                "        <div class=\"billboard-hd\">\n" +
+                "            <h2>一周口碑榜<span><a href=\"/chart\">更多榜单&raquo;</a></span></h2>\n" +
+                "        </div>\n" +
+                "        <div class=\"billboard-bd\">\n" +
+                "            <table>\n" +
+                "                    <tr>\n" +
+                "                        <td class=\"order\">1</td>\n" +
+                "                        <td class=\"title\"><a onclick=\"moreurl(this, {from:'mv_rk'})\" href=\"https://movie.douban.com/subject/30135113/\">骡子</a></td>\n" +
+                "                    </tr>\n" +
+                "                    <tr>\n" +
+                "                        <td class=\"order\">2</td>\n" +
+                "                        <td class=\"title\"><a onclick=\"moreurl(this, {from:'mv_rk'})\" href=\"https://movie.douban.com/subject/26715636/\">地久天长</a></td>\n" +
+                "                    </tr>\n" +
+                "                    <tr>\n" +
+                "                        <td class=\"order\">3</td>\n" +
+                "                        <td class=\"title\"><a onclick=\"moreurl(this, {from:'mv_rk'})\" href=\"https://movie.douban.com/subject/30164448/\">海市蜃楼</a></td>\n" +
+                "                    </tr>\n" +
+                "                    <tr>\n" +
+                "                        <td class=\"order\">4</td>\n" +
+                "                        <td class=\"title\"><a onclick=\"moreurl(this, {from:'mv_rk'})\" href=\"https://movie.douban.com/subject/30306764/\">证人</a></td>\n" +
+                "                    </tr>\n" +
+                "                    <tr>\n" +
+                "                        <td class=\"order\">5</td>\n" +
+                "                        <td class=\"title\"><a onclick=\"moreurl(this, {from:'mv_rk'})\" href=\"https://movie.douban.com/subject/30141372/\">303</a></td>\n" +
+                "                    </tr>\n" +
+                "                    <tr>\n" +
+                "                        <td class=\"order\">6</td>\n" +
+                "                        <td class=\"title\"><a onclick=\"moreurl(this, {from:'mv_rk'})\" href=\"https://movie.douban.com/subject/27619771/\">公路冤家</a></td>\n" +
+                "                    </tr>\n" +
+                "                    <tr>\n" +
+                "                        <td class=\"order\">7</td>\n" +
+                "                        <td class=\"title\"><a onclick=\"moreurl(this, {from:'mv_rk'})\" href=\"https://movie.douban.com/subject/30406190/\">哥哥</a></td>\n" +
+                "                    </tr>\n" +
+                "                    <tr>\n" +
+                "                        <td class=\"order\">8</td>\n" +
+                "                        <td class=\"title\"><a onclick=\"moreurl(this, {from:'mv_rk'})\" href=\"https://movie.douban.com/subject/26649687/\">然后你来了</a></td>\n" +
+                "                    </tr>\n" +
+                "                    <tr>\n" +
+                "                        <td class=\"order\">9</td>\n" +
+                "                        <td class=\"title\"><a onclick=\"moreurl(this, {from:'mv_rk'})\" href=\"https://movie.douban.com/subject/27602116/\">我的英雄学院：两位英雄</a></td>\n" +
+                "                    </tr>\n" +
+                "                    <tr>\n" +
+                "                        <td class=\"order\">10</td>\n" +
+                "                        <td class=\"title\"><a onclick=\"moreurl(this, {from:'mv_rk'})\" href=\"https://movie.douban.com/subject/27607255/\">自由了！</a></td>\n" +
+                "                    </tr>\n" +
+                "            </table>\n" +
+                "        </div>\n" +
+                "    </div>";
+        String string1 = RegexUtils.regexString("href=\"https://movie.douban.com/subject/\\d{8}/",string);
+        System.out.println(string1);
+
+href="https://movie.douban.com/subject/1292052/"
+href="https://movie.douban.com/subject/1292052/"
+href="https://movie.douban.com/subject/1291546/"
+href="https://movie.douban.com/subject/1291546/"
+href="https://movie.douban.com/subject/1295644/"
+href="https://movie.douban.com/subject/1295644/"
+href="https://movie.douban.com/subject/1292720/"
+href="https://movie.douban.com/subject/1292720/"
+href="https://movie.douban.com/subject/1292063/"
+href="https://movie.douban.com/subject/1292063/"
+href="https://movie.douban.com/subject/1292722/"
+href="https://movie.douban.com/subject/1292722/"
+href="https://movie.douban.com/subject/1291561/"
+href="https://movie.douban.com/subject/1291561/"
+href="https://movie.douban.com/subject/1295124/"
+href="https://movie.douban.com/subject/1295124/"
+href="https://movie.douban.com/subject/3541415/"
+href="https://movie.douban.com/subject/3541415/"
+href="https://movie.douban.com/subject/3011091/"
+href="https://movie.douban.com/subject/3011091/"
+href="https://movie.douban.com/subject/2131459/"
+href="https://movie.douban.com/subject/2131459/"
+href="https://movie.douban.com/subject/3793023/"
+href="https://movie.douban.com/subject/3793023/"
+href="https://movie.douban.com/subject/1292001/"
+href="https://movie.douban.com/subject/1292001/"
+href="https://movie.douban.com/subject/1291549/"
+href="https://movie.douban.com/subject/1291549/"
+href="https://movie.douban.com/subject/1292064/"
+href="https://movie.douban.com/subject/1292064/"
+href="https://movie.douban.com/subject/1292213/"
+href="https://movie.douban.com/subject/1292213/"
+href="https://movie.douban.com/subject/1889243/"
+href="https://movie.douban.com/subject/1889243/"
+href="https://movie.douban.com/subject/1291560/"
+href="https://movie.douban.com/subject/1291560/"
+href="https://movie.douban.com/subject/1291841/"
+href="https://movie.douban.com/subject/1291841/"
+href="https://movie.douban.com/subject/5912992/"
+href="https://movie.douban.com/subject/5912992/"
+href="https://movie.douban.com/subject/1307914/"
+href="https://movie.douban.com/subject/1307914/"
+href="https://movie.douban.com/subject/25662329/"
+href="https://movie.douban.com/subject/25662329/"
+href="https://movie.douban.com/subject/1849031/"
+href="https://movie.douban.com/subject/1849031/"
+href="https://movie.douban.com/subject/3319755/"
+href="https://movie.douban.com/subject/3319755/"
+href="https://movie.douban.com/subject/6786002/"
+href="https://movie.douban.com/subject/6786002/"
